@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Create Account</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #6a11cb, #2575fc);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .register-box {
+      background: #ffffff;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+      width: 100%;
+      max-width: 420px;
+    }
+
+    .register-box h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #333;
+    }
+
+    .register-box input[type="text"],
+    .register-box input[type="email"],
+    .register-box input[type="password"],
+    .register-box input[type="number"] {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .register-box input:focus {
+      border-color: #2575fc;
+      outline: none;
+      box-shadow: 0 0 5px #2575fc;
+    }
+
+    .register-box button {
+      width: 100%;
+      background-color: #2575fc;
+      color: white;
+      padding: 12px;
+      margin-top: 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s;
+    }
+
+    .register-box button:hover {
+      background-color: #1a5edb;
+    }
+
+    .register-box .footer {
+      margin-top: 15px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    .register-box .footer a {
+      color: #2575fc;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.2s;
+    }
+
+    .register-box .footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="register-box">
+    <h2>Create Account</h2>
+    <form action="/register" method="POST">
+      <input type="text" name="name" placeholder="Full Name" required>
+      <input type="text" name="username" placeholder="Username" required>
+      <input type="number" name="age" placeholder="Age" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="password" name="password" placeholder="Password" required>
+      <button type="submit">Register</button>
+    </form>
+    <div class="footer">
+      Already have an account? <a href="/login">Login</a>
+    </div>
+  </div>
+</body>
+</html>
