@@ -1,4 +1,7 @@
-https://github.com/Harshita-prog30/SecureLoginX-A-Node.js-based-Authentication-System/blob/main/Screenshot%202025-08-07%20191502.png?raw=true [Project Screenshot]
+Project Screenshot
+
+![SecureLoginX Screenshot](https://github.com/Harshita-prog30/SecureLoginX-A-Node.js-based-Authentication-System/assets/Harshita-prog30/abc12345.png)
+
 
 
 SecureLoginX – Login & Registration System with MongoDB
