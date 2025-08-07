@@ -1,6 +1,7 @@
 Project Screenshot
 
-[Register Page Screenshot](https://github.com/Harshita-prog30/SecureLoginX-A-Node.js-based-Authentication-System/blob/main/Screenshot%202025-08-07%20191502.png?raw=true)
+https://raw.githubusercontent.com/Harshita-prog30/SecureLoginX-A-Node.js-based-Authentication-System/main/Screenshot%202025-08-07%20191502.png
+
 
 
 
