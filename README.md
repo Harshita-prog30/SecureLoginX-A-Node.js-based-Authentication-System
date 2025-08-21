@@ -30,5 +30,27 @@ A full-stack authentication system built using Node.js, Express, MongoDB, and EJ
 - Authentication: JWT, bcrypt
 - Other Tools: nodemon, dotenv, body-parser
 
+##  Project Structure
+SecureLoginX/
+│── models/ # Mongoose schemas
+│── routes/ # Express routes
+│── middleware/ # Auth middleware
+│── public/ # Static files
+│── views/ # EJS templates
+│── server.js # Entry point
 
+
+##  Installation
+```bash
+# Clone the repo
+git clone https://github.com/Harshita-prog30/SecureLoginX-A-Node.js-based-Authentication-System.git
+
+# Go inside
+cd SecureLoginX-A-Node.js-based-Authentication-System
+
+# Install dependencies
+npm install
+
+# Run locally
+npm start
 
