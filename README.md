@@ -1,6 +1,9 @@
-Project Screenshot
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Harshita-prog30/SecureLoginX-A-Node.js-based-Authentication-System/main/browser.png" 
+       alt="SecureLoginX Screenshot" 
+       width="800" />
+</p>
 
-https://raw.githubusercontent.com/Harshita-prog30/SecureLoginX-A-Node.js-based-Authentication-System/main/Screenshot%202025-08-07%20191502.png
 
 
 
